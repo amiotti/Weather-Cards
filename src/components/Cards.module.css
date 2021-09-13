@@ -1,0 +1,5 @@
+.Cards {
+  display: flex;
+  align-self: center;
+  justify-content: space-evenly;
+}

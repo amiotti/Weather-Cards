@@ -1,0 +1,11 @@
+.container {
+  display: flex;
+  place-content: center;
+}
+
+.ciudad {
+  border: 2px solid;
+  border-color: rgb(69, 3, 122);
+  border-radius: 5px;
+  width: 40%;
+}

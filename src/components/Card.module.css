@@ -1,0 +1,51 @@
+.container {
+  width: 300px;
+  margin: 10px;
+  border: 2px solid;
+  border-radius: 8px;
+  border-color: rgb(1, 52, 78);
+  padding: 20px;
+  align-content: center;
+  position: relative;
+  background: linear-gradient(
+    to right bottom,
+    rgb(15, 133, 180),
+    rgba(255, 255, 255, 0.3)
+  );
+  backdrop-filter: blur(100rem);
+}
+
+.boton {
+  background-color: crimson;
+  border-radius: 5px;
+  border-color: crimson;
+  color: white;
+  position: absolute;
+  top: 8px;
+  right: 16px;
+}
+
+.cityName {
+  font-size: 25px;
+  font-weight: bold;
+  align-self: center;
+  color: rgb(1, 5, 31);
+  font-family: Helvetica;
+}
+
+p {
+  font-size: 15px;
+  font-weight: bold;
+  align-self: flex-end;
+}
+
+.min {
+  position: absolute;
+  left: 20px;
+  font-family: Arial, Helvetica;
+}
+.max {
+  position: absolute;
+  right: 20px;
+  font-family: Arial, Helvetica;
+}
